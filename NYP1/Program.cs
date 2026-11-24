@@ -10,8 +10,8 @@ class Islemci
 
     public Islemci(string model, int cekirdekSayisi)
     {
-        model = model;
-        cekirdekSayisi = cekirdekSayisi;
+        Model = model;
+        CekirdekSayisi = cekirdekSayisi;
     }
 
     public void Calistir()
@@ -45,7 +45,7 @@ class Bilgisayar
     }
 }
 
-class Progrem
+class Program
 {
     static void Main()
     {
